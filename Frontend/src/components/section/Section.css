@@ -1,0 +1,30 @@
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10px;
+    width: 100%;
+}
+
+.middle-sidebar {
+    width: 60%;
+    height: 50rem;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(209, 221, 157);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+@media (max-width: 769px) {
+    section {
+        width: 100%;
+    }
+
+    .section-container {
+        flex-wrap: wrap;
+    }
+
+    .middle-sidebar {
+        width: 100%;
+    }
+}
