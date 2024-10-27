@@ -30,7 +30,7 @@ const footer = () => {
           </ul>
         </div>
       </div>
-      <p>Copy &copy; Right Content. All Rights Reserved</p>
+      <p>Copy &copy; {new Date().getFullYear()} Right Content. All Rights Reserved</p>
     </footer>
   )
 }
